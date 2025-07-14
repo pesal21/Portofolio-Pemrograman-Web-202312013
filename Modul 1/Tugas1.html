@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+ <!--ini style umtuk mengatur warna latar belakang -->
+<body style="background-color: #bcdcf8;margin: 20px;">
+
+  <!--  Ini Gambar logo kampus -->
+  <div style="text-align: center;">
+    <img src="logo.png" alt="Logo Kampus" width="350">
+  </div>
+<!-- Ini Judul Halaman-->
+  <h1 style="text-align: center; color: #003366; margin-top: 1px; font-family: 'Times New Roman'; font-size: 50px;">Formulir Pendaftaran Mahasiswa Baru</h1>
+
+<!-- Ini Formulir data Pribadi-->
+  <form action="#" method="post"
+    style="max-width: 900px; margin: auto; background-color: #ffffff; padding: 20px; border-radius: 35px; box-shadow: 0px 0px 40px rgba(0,0,0,0.1);">
+  
+    <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+      <legend style="padding: 0 10px; font-family:'Times New Roman'; font-size: 30px; font-weight: bold;">Data Pribadi</legend>
+  
+      <label for="nama" style="font-family: 'Times New Roman'; font-size: 18px;">Nama Lengkap :</label><br>
+      <input type="text" id="nama" name="nama" placeholder="Contoh : Faizal Darmawan" required
+        style="width: 95%; padding: 10px; margin-top: 8px; margin-bottom: 15px;"><br>
+  
+      <label for="email" style="font-family: 'Times New Roman'; font-size: 18px" >Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="email@example.com" required
+        style="width: 95%; padding: 10px; margin-top: 8px; margin-bottom: 15px;"><br>
+  
+      <label style="font-family: 'Times New Roman'; font-size: 18px">Jenis Kelamin:</label><br>
+      <input type="radio" id="pria" name="gender" value="Pria" style="margin-top: 8px;">
+      <label for="pria" style="font-family: 'times New Roman'; font-weight: bold; font-size: 17px;">Pria</label>
+      <input type="radio" id="wanita" name="gender" value="Wanita">
+      <label for="wanita" style="font-family: 'times New Roman'; font-weight: bold; font-size: 17px;">Wanita</label>
+    </fieldset>
+  <!-- Ini Formulir Hobi-->
+    <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+      <legend style="padding: 0 10px;font-family:'Times New Roman'; font-size: 30px; font-weight: bold;">Hobi</legend>
+  
+      <input type="checkbox" id="membaca" name="hobi" value="Membaca" style="margin-bottom: 10px;">
+      <label for="membaca" style="font-family: 'Times New Roman'; font-size: 18px">Mengaji</label><br>
+      <input type="checkbox" id="olahraga" name="hobi" value="Olahraga" style="margin-bottom: 10px;">
+      <label for="olahraga" style="font-family: 'Times New Roman'; font-size: 18px">Olahraga</label><br>
+      <input type="checkbox" id="musik" name="hobi" value="Musik">
+      <label for="musik" style="font-family: 'Times New Roman'; font-size: 18px">Main Game</label>
+    </fieldset>
+  
+    <!-- Ini formulir Jurusan -->
+    <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+      <legend style="padding: 0 10px;font-family:'Times New Roman'; font-size: 30px; font-weight: bold;">Pilihan Jurusan</legend>
+  
+      <label for="jurusan" style="font-family: 'Times New Roman'; font-size: 18px">Jurusan:</label><br>
+      <select id="jurusan" name="jurusan" required style="width: 99%; padding: 8px; margin-top: 5px;">
+        <option value="">-- Pilih Jurusan --</option>
+        <option value="TI">Teknik Informatika</option>
+        <option value="TE">Teknik Elektro</option>
+        <option value="SI">Sistem Informasi</option>
+        <option value="BD">Bisnis Digital</option>
+      </select>
+    </fieldset>
+  
+    <!-- Alamat -->
+    <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+      <legend style="padding: 0 10px; font-family:'Times New Roman'; font-size: 30px; font-weight: bold;">Alamat</legend>
+  
+      <label for="alamat" style="font-family: 'Times New Roman'; font-size: 18px">Alamat Lengkap:</label><br>
+      <textarea id="alamat" name="alamat" rows="4" placeholder="Contoh: Jl. Taekwondo 1 RT.10 Bontang"
+        style="width: 95%; padding: 10px; margin-top: 8px;"></textarea>
+    </fieldset>
+  
+    <!-- Tombol Submit -->
+    <div style="text-align: center;">
+      <button type="submit"
+        style="padding: 10px 25px; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">
+        Kirim
+      </button>
+    </div>
+  
+  </form>
+
+
+
+  <!-- Link ke halaman kampus -->
+  <p style="text-align: center; margin-top: 20px;">
+    <a href="https://www.stitek.ac.id/" target="_blank">INFORMASI LEBIH LANJUT</a>
+  </p>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #add8e6;
+            font-family: 'arial';
+        }
+        h1 {
+            color: white;
+            font-size: 40px;
+        }
+        p{
+            color: black;
+            background-color: #d3d3d3;
+            padding:10px;
+            border-radius: 45px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .box1 {
+            background-color: #ff9999;
+            border: 2px solid black;
+            border-radius: 30px;
+            box-sizing: border-box;
+            padding: 10px;
+            height: 150px;
+        }
+        .box2 {
+            background-color: #99ff99;
+            border: 2px solid black;
+            border-radius: 30px;
+            box-sizing: border-box;
+            padding: 10px;
+            height: 150px;
+        }
+        .box3 {
+            background-color: #9999ff;
+            border: 2px solid black;
+            border-radius: 30px;
+            box-sizing: border-box;
+            padding: 10px;
+            height: 150px;
+        }
+        @media only screen and (max-width : 768px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+                /* 2 kolom */
+            }
+        }
+        @media only screen and (max-width : 480px) {
+            .container {
+                grid-template-columns:1fr;
+                /* 1 kolom */
+            }
+            h1{
+                font-size: 28px;
+            }
+            .box1{
+                height: 120px;
+            }
+            .box2{
+                height: 120px;
+            }
+            .box3{
+                height: 120px;
+            }
+            p{
+                padding:5px;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Praktikum CSS</h1>
+    <p>Nama saya adalah Faisal</p>
+    <div class="container">
+        <div class="box1">PESAL</div>
+        <div class="box2">OJAN</div>
+        <div class="box3">WENKA</div>
+    </div>
+</body>
+
+</html>
