@@ -33,6 +33,7 @@ Portofolio-Pemrograman-Web-202312013/
 ├── Modul 4/
 ├── Modul 5/
 └── Modul 6/
+```
 
 ---
 
@@ -44,6 +45,7 @@ main
 ├── tugas/modul-4
 ├── tugas/modul-5
 └── tugas/modul-6
+```
 
 ---
 
@@ -73,6 +75,7 @@ Pertama, clone repositori ke direktori lokal:
 ```bash
 git clone https://github.com/faizaldarmawan/Portofolio-Pemrograman-Web-202312013.git
 cd Portofolio-Pemrograman-Web-202312013
+```
 
 ---
 
@@ -99,6 +102,7 @@ git push origin tugas/modul-1-3
 
 git checkout -b main
 git push origin main
+```
 
 ---
 
@@ -122,6 +126,7 @@ mkdir Modul\ 4/
 git add Modul\ 4/
 git commit -m "Menambahkan tugas Modul 4"
 git push origin tugas/modul-4
+```
 
 ---
 
@@ -143,6 +148,7 @@ mkdir Modul\ 5/
 git add Modul\ 5/
 git commit -m "Menambahkan tugas Modul 5"
 git push origin tugas/modul-5
+```
 
 ---
 
@@ -164,6 +170,7 @@ mkdir Modul\ 6/
 git add Modul\ 6/
 git commit -m "Menambahkan tugas Modul 6"
 git push origin tugas/modul-6
+```
 
 ---
 
