@@ -6,6 +6,22 @@ Setiap modul dikerjakan secara terpisah menggunakan sistem **branch**, dengan st
 
 ---
 
+## 📂 Daftar Modul
+
+- [Modul 1](./Modul%201)
+
+- [Modul 2](./Modul%202)
+
+- [Modul 3](./Modul%203)
+
+- [Modul 4](https://github.com/pesal21/Portofolio-Pemrograman-Web-202312013/tree/tugas/modul-4-javascript/Modul%204)
+
+- [Modul 5](https://github.com/pesal21/Portofolio-Pemrograman-Web-202312013/tree/tugas/modul-5-dasarphp/Modul%205)
+
+- [Modul 6](https://github.com/pesal21/Portofolio-Pemrograman-Web-202312013/tree/tugas/modul-6-PHP/Modul%206)
+
+---
+
 ## 📑 Daftar Isi
 
 - [🧱 Struktur Folder & Branch](#🧱-struktur-folder--branch)
@@ -34,9 +50,6 @@ Portofolio-Pemrograman-Web-202312013/
 ├── Modul 5/
 └── Modul 6/
 ```
-
----
-
 ### 🌿 Struktur Branch
 
 ```bash
@@ -66,8 +79,6 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal dan menyiapkan:
 
 Berikut adalah langkah-langkah setup dan pengerjaan proyek mulai dari clone repository, setup awal Git, hingga commit dan push setiap modul. Semua modul dikerjakan di branch terpisah sesuai instruksi dosen.
 
----
-
 ### 📂 Clone Repository
 
 Pertama, clone repositori ke direktori lokal:
@@ -76,9 +87,6 @@ Pertama, clone repositori ke direktori lokal:
 git clone https://github.com/faizaldarmawan/Portofolio-Pemrograman-Web-202312013.git
 cd Portofolio-Pemrograman-Web-202312013
 ```
-
----
-
 ### 📁 Setup Modul 1–3
 
 **Langkah-langkah:**
@@ -103,9 +111,6 @@ git push origin tugas/modul-1-3
 git checkout -b main
 git push origin main
 ```
-
----
-
 ### 🗂️ Setup Modul 4
 
 **Langkah-langkah:**
@@ -127,9 +132,6 @@ git add Modul\ 4/
 git commit -m "Menambahkan tugas Modul 4"
 git push origin tugas/modul-4
 ```
-
----
-
 ### 🗂️ Setup Modul 5
 
 **Langkah-langkah:**
@@ -149,9 +151,6 @@ git add Modul\ 5/
 git commit -m "Menambahkan tugas Modul 5"
 git push origin tugas/modul-5
 ```
-
----
-
 ### 🗂️ Setup Modul 6
 
 **Langkah-langkah:**
@@ -190,9 +189,3 @@ NIM             : 202312013
 Kelas           : Teknik Informatika – Pagi
 Mata Kuliah     : Pemrograman Web
 Dosen Pengampu  : Ir. ABADI NUGROHO, S.Kom., M.Kom
-
-
-
-
-
-
